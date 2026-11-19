@@ -1,0 +1,6 @@
+{
+  "name": "Slim Fit Gym — Only for Ladies",
+  "description": "Private female-only fitness sanctuary, strength & pilates studio, and clinical nutrition center in Mirpur-2, Dhaka.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

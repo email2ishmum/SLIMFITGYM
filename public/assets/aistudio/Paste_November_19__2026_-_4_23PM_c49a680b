@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>SLIM FIT GYM (Only For Ladies) — Mirpur-2, Dhaka</title>
+  <meta content="100% women-only fitness studio in Mirpur-2, Dhaka. Zumba, Aerobics, Yoga, Weightlifting, Fat Loss, Body Tone, and Customized Diet Plans with female trainers." name="description" />
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+  <style>
+    @layer base {
+      html, body { margin: 0; padding: 0; }
+      body { overscroll-behavior: none; }
+      main > :first-child { margin-top: 0 !important; }
+      main > :last-child { margin-bottom: 0 !important; }
+    }
+    ::-webkit-scrollbar { display: none; }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "on-tertiary-fixed-variant": "#900039",
+            "tertiary-fixed": "#ffd9de",
+            "outline-variant": "#e2bdc2",
+            "on-primary-fixed-variant": "#90003a",
+            "primary-fixed": "#ffd9de",
+            "on-background": "#1b1c1b",
+            "error-container": "#ffdad6",
+            "surface-container-highest": "#e4e2e0",
+            "tertiary-container": "#d23462",
+            "on-surface-variant": "#5a4044",
+            "surface-container-high": "#eae8e6",
+            "on-surface": "#1b1c1b",
+            "error": "#ba1a1a",
+            "on-secondary-container": "#656164",
+            "on-error": "#ffffff",
+            "surface-container": "#efedec",
+            "tertiary-fixed-dim": "#ffb2be",
+            "primary-fixed-dim": "#ffb2bf",
+            "inverse-on-surface": "#f2f0ee",
+            "primary": "#b4004b",
+            "surface-tint": "#bc014e",
+            "inverse-primary": "#ffb2bf",
+            "surface-dim": "#dbdad8",
+            "on-secondary": "#ffffff",
+            "surface": "#fbf9f7",
+            "secondary-container": "#e4dee1",
+            "surface-container-low": "#f5f3f1",
+            "surface-variant": "#e4e2e0",
+            "on-tertiary-container": "#fff8f8",
+            "on-secondary-fixed-variant": "#494648",
+            "on-primary": "#ffffff",
+            "background": "#fbf9f7",
+            "on-error-container": "#93000a",
+            "surface-bright": "#fbf9f7",
+            "on-secondary-fixed": "#1d1b1d",
+            "secondary": "#615d60",
+            "on-primary-container": "#fff8f8",
+            "on-tertiary": "#ffffff",
+            "outline": "#8e6f74",
+            "secondary-fixed-dim": "#cbc5c8",
+            "secondary-fixed": "#e7e1e3",
+            "on-primary-fixed": "#3f0015",
+            "tertiary": "#b0154b",
+            "primary-container": "#d92662",
+            "inverse-surface": "#30302f",
+            "on-tertiary-fixed": "#3f0015",
+            "surface-container-lowest": "#ffffff"
+          },
+          borderRadius: {
+            DEFAULT: "0.25rem",
+            lg: "0.5rem",
+            xl: "0.75rem",
+            full: "9999px"
+          },
+          spacing: {
+            "space-xl": "2.5rem",
+            "space-lg": "1.5rem",
+            "gutter": "1.5rem",
+            "space-xs": "0.25rem",
+            "space-md": "1rem",
+            "margin": "2.5rem",
+            "margin-mobile": "1.25rem",
+            "gutter-mobile": "1rem",
+            "space-sm": "0.5rem"
+          },
+          fontFamily: {
+            "headline-xl-mobile": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-2xl-mobile": ["Plus Jakarta Sans", "sans-serif"],
+            "body-lg": ["Inter", "sans-serif"],
+            "label-md": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-lg": ["Plus Jakarta Sans", "sans-serif"],
+            "label-sm": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-sm": ["Plus Jakarta Sans", "sans-serif"],
+            "headline-md": ["Plus Jakarta Sans", "sans-serif"],
+            "body-sm": ["Inter", "sans-serif"],
+            "headline-xl": ["Plus Jakarta Sans", "sans-serif"],
+            "body-md": ["Inter", "sans-serif"],
+            "headline-2xl": ["Plus Jakarta Sans", "sans-serif"]
+          },
+          fontSize: {
+            "headline-xl-mobile": ["30px", { lineHeight: "36px", letterSpacing: "-0.015em", fontWeight: "700" }],
+            "headline-2xl-mobile": ["38px", { lineHeight: "44px", letterSpacing: "-0.02em", fontWeight: "800" }],
+            "body-lg": ["18px", { lineHeight: "28px", fontWeight: "400" }],
+            "label-md": ["14px", { lineHeight: "20px", letterSpacing: "0.02em", fontWeight: "600" }],
+            "headline-lg": ["32px", { lineHeight: "40px", letterSpacing: "-0.015em", fontWeight: "700" }],
+            "label-sm": ["12px", { lineHeight: "16px", letterSpacing: "0.05em", fontWeight: "700" }],
+            "headline-sm": ["20px", { lineHeight: "28px", fontWeight: "600" }],
+            "headline-md": ["24px", { lineHeight: "32px", letterSpacing: "-0.01em", fontWeight: "600" }],
+            "body-sm": ["14px", { lineHeight: "20px", fontWeight: "400" }],
+            "headline-xl": ["40px", { lineHeight: "48px", letterSpacing: "-0.02em", fontWeight: "700" }],
+            "body-md": ["16px", { lineHeight: "24px", fontWeight: "400" }],
+            "headline-2xl": ["56px", { lineHeight: "64px", letterSpacing: "-0.03em", fontWeight: "800" }]
+          }
+        }
+      }
+    };
+  </script>
+</head>
+<body class="bg-surface font-body-md text-body-md text-on-surface antialiased">
+
+  <!-- FULL-WIDTH STICKY HEADER -->
+  <header class="sticky top-0 z-50 w-full bg-surface-container-lowest/95 backdrop-blur-md border-b border-surface-container shadow-[0_1px_8px_rgba(0,0,0,0.04)]">
+    <div class="max-w-[1280px] mx-auto h-20 w-full px-margin-mobile lg:px-margin flex items-center justify-between">
+      <a class="flex items-center gap-space-sm" href="#hero">
+        <img alt="SLIM FIT GYM Only For Ladies Logo" class="h-11 w-11 object-contain rounded-full shadow-sm" src="https://lh3.googleusercontent.com/aida/ALJJyrDT2ocBeCjYU9Scti4fzm3hSQZgq-Ih87hjKhRLpk8PF7hA1TMI4PwL4ro2xHbffh2T03QLYsnDoMchPmu4IH6UkMzY0Wh1Jy6q5Z5iYy-outyS3nt9EZ8bhhnA9zGUJQa4ETzaldrk0veWhjOdi3Afp_0Q9RSNyW4FrwHmU1czrx_jkjo0JXBIR7uDVxlFZjg7Usop5k9ewrh9MwgevEHbZvZKxhAQ-8HHfEydTfIgG3x8TvbucVV-rA" />
+        <div class="flex flex-col justify-center leading-none pl-1">
+          <span class="font-headline-sm text-headline-sm tracking-tight text-on-surface font-bold">SLIM FIT GYM</span>
+          <span class="font-label-sm text-label-sm tracking-wider text-primary uppercase">ONLY FOR LADIES</span>
+        </div>
+      </a>
+
+      <nav class="hidden lg:flex items-center gap-space-lg" id="desktopNav">
+        <a class="nav-link font-label-md text-label-md text-primary font-bold transition-colors" href="#hero">Home</a>
+        <a class="nav-link font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#about">About</a>
+        <a class="nav-link font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#programmes">Programmes</a>
+        <a class="nav-link font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#schedule">Schedule</a>
+        <a class="nav-link font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#pricing">Pricing</a>
+        <a class="nav-link font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#reviews">Reviews</a>
+        <a class="nav-link font-label-md text-label-md text-on-surface-variant hover:text-primary transition-colors" href="#contact">Contact</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a class="hidden sm:inline-flex items-center justify-center px-space-lg py-space-sm rounded-full bg-primary-container text-on-primary-container font-label-md text-label-md hover:bg-primary transition-all duration-200 shadow-sm" href="#pricing">Join Now</a>
+        <button aria-label="Toggle Menu" class="lg:hidden w-10 h-10 rounded-xl bg-surface-container text-on-surface flex items-center justify-center hover:bg-surface-container-high transition-colors" id="mobileMenuBtn" type="button">
+          <span class="material-symbols-outlined text-[24px]" id="menuIcon">menu</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Menu -->
+    <div class="hidden lg:hidden bg-surface-container-lowest border-t border-surface-container px-margin-mobile py-4 shadow-lg" id="mobileMenu">
+      <div class="flex flex-col gap-3">
+        <a class="mobile-nav-link py-2 font-label-md text-label-md text-on-surface hover:text-primary" href="#hero">Home</a>
+        <a class="mobile-nav-link py-2 font-label-md text-label-md text-on-surface hover:text-primary" href="#about">About</a>
+        <a class="mobile-nav-link py-2 font-label-md text-label-md text-on-surface hover:text-primary" href="#programmes">Programmes</a>
+        <a class="mobile-nav-link py-2 font-label-md text-label-md text-on-surface hover:text-primary" href="#schedule">Schedule</a>
+        <a class="mobile-nav-link py-2 font-label-md text-label-md text-on-surface hover:text-primary" href="#pricing">Pricing</a>
+        <a class="mobile-nav-link py-2 font-label-md text-label-md text-on-surface hover:text-primary" href="#reviews">Reviews</a>
+        <a class="mobile-nav-link py-2 font-label-md text-label-md text-on-surface hover:text-primary" href="#contact">Contact</a>
+        <a class="mobile-nav-link mt-2 w-full py-3 rounded-full bg-primary-container text-on-primary-container text-center font-label-md text-label-md font-bold" href="#pricing">Join Now</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="w-full bg-surface">
+    <div class="flex flex-col w-full">
+
+      <!-- HERO SECTION -->
+      <section class="relative w-full overflow-hidden bg-surface py-space-xl lg:py-24 scroll-mt-20" id="hero">
+        <div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+            <div class="lg:col-span-7 flex flex-col items-start z-10">
+              <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-primary-fixed/40 text-primary font-label-sm text-label-sm uppercase tracking-wider shadow-sm mb-space-md">
+                <span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+                <span>100% Women-Only Fitness Studio • Mirpur-2, Dhaka</span>
+              </div>
+              <h1 class="font-headline-2xl text-headline-2xl-mobile lg:text-headline-2xl text-on-surface tracking-tight mb-space-md leading-[1.1]">
+                Stronger, Healthier, <br />
+                <span class="text-primary-container relative inline-block">
+                  Happier You
+                  <svg class="absolute -bottom-2 left-0 w-full h-3 text-tertiary-fixed-dim" fill="none" viewBox="0 0 240 12" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 9C60 3 180 3 237 9" stroke="currentColor" stroke-linecap="round" stroke-width="4"></path>
+                  </svg>
+                </span>
+              </h1>
+              <p class="font-body-lg text-body-lg text-secondary max-w-xl mb-space-lg">
+                A safe, private, and empowering ladies-only gym in Mirpur-2 with modern equipment, dedicated female trainers, and personalized diet & workout guidance.
+              </p>
+              <div class="flex flex-wrap items-center gap-space-md mb-space-xl w-full sm:w-auto">
+                <a class="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-primary-container text-on-primary-container font-label-md text-label-md shadow-md hover:bg-primary transition-all duration-200 transform hover:-translate-y-0.5" href="#contact">
+                  <span>Join Now</span>
+                  <span class="material-symbols-outlined ml-2 text-[20px]">arrow_forward</span>
+                </a>
+                <a class="inline-flex items-center justify-center px-8 py-3.5 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md shadow-sm border border-surface-container hover:bg-surface-container transition-all duration-200" href="#schedule">
+                  <span class="material-symbols-outlined mr-2 text-[20px] text-primary">schedule</span>
+                  <span>View Class Times</span>
+                </a>
+              </div>
+              <div class="w-full pt-space-md">
+                <p class="font-label-sm text-label-sm text-outline uppercase tracking-wider mb-space-sm">Our Core Philosophy</p>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 w-full">
+                  <div class="flex items-center gap-2 p-3 rounded-xl bg-surface-container-lowest shadow-sm hover:shadow transition-shadow">
+                    <span class="material-symbols-outlined text-primary text-[20px]">favorite</span>
+                    <span class="font-label-sm text-label-sm text-on-surface font-semibold">Be Fit Not Skinny</span>
+                  </div>
+                  <div class="flex items-center gap-2 p-3 rounded-xl bg-surface-container-lowest shadow-sm hover:shadow transition-shadow">
+                    <span class="material-symbols-outlined text-primary text-[20px]">verified</span>
+                    <span class="font-label-sm text-label-sm text-on-surface font-semibold">Health Is Wealth</span>
+                  </div>
+                  <div class="flex items-center gap-2 p-3 rounded-xl bg-surface-container-lowest shadow-sm hover:shadow transition-shadow">
+                    <span class="material-symbols-outlined text-primary text-[20px]">fitness_center</span>
+                    <span class="font-label-sm text-label-sm text-on-surface font-semibold">Strong Women</span>
+                  </div>
+                  <div class="flex items-center gap-2 p-3 rounded-xl bg-surface-container-lowest shadow-sm hover:shadow transition-shadow">
+                    <span class="material-symbols-outlined text-primary text-[20px]">groups</span>
+                    <span class="font-label-sm text-label-sm text-on-surface font-semibold">Support Each Other</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="lg:col-span-5 relative mt-space-lg lg:mt-0">
+              <div class="relative w-full aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl bg-surface-container">
+                <img alt="Women working out together in a modern ladies-only gym studio" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCH4gTTqKu12Su_RV2YUY7S4KrU_x8YDgXtqah3ALaZFB65TY799HByHmXxqAa19vd4z5DbWkhKPvvHN0Vx0LAiJn7h05Zn4edvB9uz273ghLyC7gkkVi9lPKRIbmG4JpG5Ascg-VpsdUJXYqPdt0m1mA6XMWmrOaPw_Pd321uZMW6LRZfYutB0pIdeCG4iAmOsil_Bj_dzwKr1WcRQY7sCx_FQ-W8F-eF8jxvPvjE" />
+                <div class="absolute bottom-6 left-6 right-6 p-4 rounded-2xl bg-surface-container-lowest/90 backdrop-blur-md shadow-lg flex items-center gap-4">
+                  <div class="w-12 h-12 rounded-xl bg-primary-container text-on-primary-container flex items-center justify-center shrink-0">
+                    <span class="material-symbols-outlined text-[28px]">shield</span>
+                  </div>
+                  <div>
+                    <div class="flex items-center gap-1.5">
+                      <span class="font-headline-sm text-headline-sm text-on-surface font-bold">100% Female Protected</span>
+                      <span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+                    </div>
+                    <p class="font-body-sm text-body-sm text-secondary">Male-restricted zone & full privacy guarantee</p>
+                  </div>
+                </div>
+              </div>
+              <div class="absolute -top-10 -right-10 w-72 h-72 bg-primary-fixed-dim/30 rounded-full blur-3xl -z-10 pointer-events-none"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="w-full bg-tertiary-fixed/20 py-space-xl lg:py-24 scroll-mt-20" id="about">
+        <div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+            <div class="lg:col-span-6 grid grid-cols-2 gap-4">
+              <div class="flex flex-col gap-4">
+                <div class="w-full aspect-[3/4] rounded-2xl overflow-hidden shadow-md bg-surface-container">
+                  <img alt="Modern women-only gym cardio floor in Mirpur Dhaka" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC6NS0s-gMy3TZ0XaIL40SlkIYUKhr6UmIi-luNijfFHfl55QF3tZg6yHafYhEtkO9jvti6gyMbUFlD5UDgod206rylDoqEkC8OSV6YqZpxcyLSUuApkGZ70ki_qt4ljINl9QIs-cuyyBUa4u19QcQFGw70xfvcJMmjPrlIXgixiVEZRcFPwgLANqAgAQu_8maPlEUYun6RkTqnR1a8Qpv3M8AT6eZcnHY4SP_z3dU" />
+                </div>
+                <div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm flex flex-col justify-center">
+                  <span class="font-headline-xl text-headline-xl text-primary font-bold">5+</span>
+                  <span class="font-label-md text-label-md text-on-surface font-semibold">Certified Female Trainers</span>
+                  <p class="font-body-sm text-body-sm text-secondary mt-1">Dedicated supervision every minute you exercise.</p>
+                </div>
+              </div>
+              <div class="flex flex-col gap-4 pt-8">
+                <div class="p-6 rounded-2xl bg-primary-container text-on-primary-container shadow-sm flex flex-col justify-center">
+                  <span class="font-headline-xl text-headline-xl font-bold">1,200+</span>
+                  <span class="font-label-md text-label-md font-semibold">Empowered Women</span>
+                  <p class="font-body-sm text-body-sm opacity-90 mt-1">Transforming their lifestyle right in Mirpur-2.</p>
+                </div>
+                <div class="w-full aspect-[3/4] rounded-2xl overflow-hidden shadow-md bg-surface-container">
+                  <img alt="Peaceful ladies-only yoga and stretching studio" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBu02lCan6O7uxcQTFob7SpZdFtk5bObWgTPfnJEYf_oZamcHlmdV9CBTyxfCoqgVw0oWeqezjEnF3_Frp7ivZVuUBC_jNV9niGoVytbNYfmvOlwZ_EgSCfAbXgADBDZBQvtEWg1p0wV5yRAy8DUnqoA24-Cb-Eg-VO5M1I8qHlFyt9Xso0YCFHcCxK8cs-5oapguiUOVI2DZxMxQuvr-8Q_yo9Kx_Lu-MhtIHOoCY" />
+                </div>
+              </div>
+            </div>
+
+            <div class="lg:col-span-6 flex flex-col items-start mt-space-lg lg:mt-0 lg:pl-space-md">
+              <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-lowest text-primary font-label-sm text-label-sm uppercase tracking-wider mb-space-sm shadow-sm">
+                <span>Our Dedicated Sanctuary</span>
+              </div>
+              <h2 class="font-headline-xl text-headline-xl-mobile lg:text-headline-xl text-on-surface mb-space-md tracking-tight leading-snug">
+                Fit Ladies, Happy Life — <br />
+                <span class="text-primary-container">A Private Space Built Just for You</span>
+              </h2>
+              <p class="font-body-md text-body-md text-secondary mb-space-lg">
+                Located in the vibrant heart of Mirpur-2, SLIM FIT GYM was founded with a singular, unwavering mission: to provide the women of Dhaka with an uncompromisingly secure, comfortable, and world-class athletic environment. Whether you are a student, homemaker, doctor, or corporate executive, this is your personal sanctuary to release stress, build sustainable stamina, and flourish.
+              </p>
+              <div class="flex flex-col gap-4 w-full">
+                <div class="p-4 rounded-xl bg-surface-container-lowest shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow">
+                  <div class="w-12 h-12 rounded-xl bg-tertiary-fixed text-primary flex items-center justify-center shrink-0">
+                    <span class="material-symbols-outlined text-[24px]">lock</span>
+                  </div>
+                  <div>
+                    <h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">100% Ladies-Only Environment</h3>
+                    <p class="font-body-sm text-body-sm text-secondary mt-0.5">Complete seclusion, curtained private entryway, zero male access or staff, enabling complete freedom of movement and attire.</p>
+                  </div>
+                </div>
+                <div class="p-4 rounded-xl bg-surface-container-lowest shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow">
+                  <div class="w-12 h-12 rounded-xl bg-tertiary-fixed text-primary flex items-center justify-center shrink-0">
+                    <span class="material-symbols-outlined text-[24px]">exercise</span>
+                  </div>
+                  <div>
+                    <h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Modern Fitness Machinery</h3>
+                    <p class="font-body-sm text-body-sm text-secondary mt-0.5">Calibrated cardio treadmills, cross-trainers, steppers, and targeted biomechanical resistance machines designed for women.</p>
+                  </div>
+                </div>
+                <div class="p-4 rounded-xl bg-surface-container-lowest shadow-sm flex items-start gap-4 hover:shadow-md transition-shadow">
+                  <div class="w-12 h-12 rounded-xl bg-tertiary-fixed text-primary flex items-center justify-center shrink-0">
+                    <span class="material-symbols-outlined text-[24px]">nutrition</span>
+                  </div>
+                  <div>
+                    <h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Individual Supervision & Diet Plans</h3>
+                    <p class="font-body-sm text-body-sm text-secondary mt-0.5">Expert female mentors providing culturally attuned Bangladeshi meal charts, posture corrections, and continuous motivation.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- OUR PROGRAMMES SECTION -->
+      <section class="w-full bg-surface py-space-xl lg:py-24 scroll-mt-20" id="programmes">
+        <div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+          <div class="flex flex-col items-center text-center max-w-2xl mx-auto mb-space-xl">
+            <span class="px-3.5 py-1 rounded-full bg-primary-fixed/40 text-primary font-label-sm text-label-sm uppercase tracking-wider mb-space-xs">
+              Comprehensive Fitness Options
+            </span>
+            <h2 class="font-headline-xl text-headline-xl-mobile lg:text-headline-xl text-on-surface tracking-tight mb-space-xs">
+              Our Specialised Programmes
+            </h2>
+            <p class="font-body-md text-body-md text-secondary">
+              Tailored fitness regimes engineered specifically for women's wellness, strength, and confidence.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+            <div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all group hover:-translate-y-1">
+              <div class="w-12 h-12 rounded-xl bg-tertiary-fixed text-primary flex items-center justify-center mb-space-md group-hover:bg-primary-container group-hover:text-on-primary-container transition-colors">
+                <span class="material-symbols-outlined text-[26px]">music_note</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2">Zumba</h3>
+              <p class="font-body-sm text-body-sm text-secondary">High-energy Latin and world dance fitness to burn calories while having fun.</p>
+            </div>
+            <div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all group hover:-translate-y-1">
+              <div class="w-12 h-12 rounded-xl bg-tertiary-fixed text-primary flex items-center justify-center mb-space-md group-hover:bg-primary-container group-hover:text-on-primary-container transition-colors">
+                <span class="material-symbols-outlined text-[26px]">directions_run</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2">Aerobic</h3>
+              <p class="font-body-sm text-body-sm text-secondary">Rhythmic cardiovascular workouts designed to boost endurance and stamina.</p>
+            </div>
+            <div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all group hover:-translate-y-1">
+              <div class="w-12 h-12 rounded-xl bg-tertiary-fixed text-primary flex items-center justify-center mb-space-md group-hover:bg-primary-container group-hover:text-on-primary-container transition-colors">
+                <span class="material-symbols-outlined text-[26px]">self_improvement</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2">Yoga</h3>
+              <p class="font-body-sm text-body-sm text-secondary">Restorative flexibility, core mindfulness, and spine care in a peaceful studio.</p>
+            </div>
+            <div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all group hover:-translate-y-1">
+              <div class="w-12 h-12 rounded-xl bg-tertiary-fixed text-primary flex items-center justify-center mb-space-md group-hover:bg-primary-container group-hover:text-on-primary-container transition-colors">
+                <span class="material-symbols-outlined text-[26px]">fitness_center</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2">Weightlifting</h3>
+              <p class="font-body-sm text-body-sm text-secondary">Safe, guided resistance training for lean muscle toning and bone density.</p>
+            </div>
+            <div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all group hover:-translate-y-1">
+              <div class="w-12 h-12 rounded-xl bg-tertiary-fixed text-primary flex items-center justify-center mb-space-md group-hover:bg-primary-container group-hover:text-on-primary-container transition-colors">
+                <span class="material-symbols-outlined text-[26px]">stairs</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2">Stepper Class</h3>
+              <p class="font-body-sm text-body-sm text-secondary">Targeted lower body conditioning, calf toning, and cardio power.</p>
+            </div>
+            <div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all group hover:-translate-y-1">
+              <div class="w-12 h-12 rounded-xl bg-tertiary-fixed text-primary flex items-center justify-center mb-space-md group-hover:bg-primary-container group-hover:text-on-primary-container transition-colors">
+                <span class="material-symbols-outlined text-[26px]">sports_gymnastics</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2">Free Hand Class</h3>
+              <p class="font-body-sm text-body-sm text-secondary">Dynamic functional bodyweight exercises to enhance agility and stamina.</p>
+            </div>
+            <div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all group hover:-translate-y-1">
+              <div class="w-12 h-12 rounded-xl bg-tertiary-fixed text-primary flex items-center justify-center mb-space-md group-hover:bg-primary-container group-hover:text-on-primary-container transition-colors">
+                <span class="material-symbols-outlined text-[26px]">local_fire_department</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2">Fat Loss Programme</h3>
+              <p class="font-body-sm text-body-sm text-secondary">Calibrated metabolic conditioning and caloric burn to shed stubborn fat safely.</p>
+            </div>
+            <div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all group hover:-translate-y-1">
+              <div class="w-12 h-12 rounded-xl bg-tertiary-fixed text-primary flex items-center justify-center mb-space-md group-hover:bg-primary-container group-hover:text-on-primary-container transition-colors">
+                <span class="material-symbols-outlined text-[26px]">accessibility_new</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2">Body Tone Programme</h3>
+              <p class="font-body-sm text-body-sm text-secondary">Sculpting and defining arms, core, and glutes with progressive resistance.</p>
+            </div>
+            <div class="p-6 rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all group hover:-translate-y-1">
+              <div class="w-12 h-12 rounded-xl bg-tertiary-fixed text-primary flex items-center justify-center mb-space-md group-hover:bg-primary-container group-hover:text-on-primary-container transition-colors">
+                <span class="material-symbols-outlined text-[26px]">restaurant_menu</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-2">Customized Diet Plan</h3>
+              <p class="font-body-sm text-body-sm text-secondary">Culturally attuned Bangladeshi meal planning tailored to your metabolic goals.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CLASS TIMES & STUDIO HOURS SECTION -->
+      <section class="w-full bg-surface-container-low py-space-xl lg:py-24 scroll-mt-20" id="schedule">
+        <div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+          <div class="flex flex-col items-center text-center max-w-2xl mx-auto mb-space-xl">
+            <span class="px-3.5 py-1 rounded-full bg-primary-fixed/40 text-primary font-label-sm text-label-sm uppercase tracking-wider mb-space-xs">
+              Flexible Timetable
+            </span>
+            <h2 class="font-headline-xl text-headline-xl-mobile lg:text-headline-xl text-on-surface tracking-tight mb-space-xs">
+              Class Times & Studio Hours
+            </h2>
+            <p class="font-body-md text-body-md text-secondary">
+              Click any batch below to pre-select that time slot in your inquiry form.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-stretch">
+            <!-- Left Card: Gym Hours -->
+            <div class="lg:col-span-5 bg-inverse-surface text-inverse-on-surface p-8 lg:p-10 rounded-3xl shadow-xl flex flex-col justify-between relative overflow-hidden">
+              <div>
+                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-surface-container-high/10 text-primary-fixed text-label-sm font-label-sm uppercase tracking-wider mb-space-md">
+                  <span class="w-2 h-2 rounded-full bg-primary-container"></span>
+                  Studio Timetable
+                </div>
+                <h3 class="font-headline-lg text-headline-lg font-bold mb-2">Weekly Studio Hours</h3>
+                <p class="font-body-md text-body-md text-surface-container-highest mb-space-lg">
+                  Open Saturday through Thursday for continuous fitness.
+                </p>
+                <div class="flex flex-col gap-4 mb-space-lg">
+                  <div class="p-4 rounded-2xl bg-surface-container-high/10 flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                      <span class="material-symbols-outlined text-primary-fixed text-[26px]">wb_sunny</span>
+                      <span class="font-body-md text-body-md font-medium">Opening Time</span>
+                    </div>
+                    <span class="font-headline-sm text-headline-sm font-bold text-inverse-on-surface">7:30 AM</span>
+                  </div>
+                  <div class="p-4 rounded-2xl bg-surface-container-high/10 flex items-center justify-between">
+                    <div class="flex items-center gap-3">
+                      <span class="material-symbols-outlined text-primary-fixed text-[26px]">bedtime</span>
+                      <span class="font-body-md text-body-md font-medium">Closing Time</span>
+                    </div>
+                    <span class="font-headline-sm text-headline-sm font-bold text-inverse-on-surface">10:00 PM</span>
+                  </div>
+                  <div class="p-4 rounded-2xl bg-primary-container/20 flex items-center justify-between border-l-4 border-primary-container">
+                    <div class="flex items-center gap-3">
+                      <span class="material-symbols-outlined text-tertiary-fixed text-[26px]">event_busy</span>
+                      <span class="font-body-md text-body-md font-medium text-tertiary-fixed">Friday</span>
+                    </div>
+                    <span class="px-3 py-1 rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm font-semibold">Weekly Off</span>
+                  </div>
+                </div>
+              </div>
+              <div class="pt-6 border-t border-surface-container-high/10">
+                <p class="font-body-sm text-body-sm text-surface-container-highest flex items-center gap-2">
+                  <span class="material-symbols-outlined text-primary-fixed text-[20px]">info</span>
+                  <span>Open-floor workouts, cardio, and machine training are unrestricted all day during open hours.</span>
+                </p>
+              </div>
+            </div>
+
+            <!-- Right Card: Daily Class Batches -->
+            <div class="lg:col-span-7 bg-surface-container-lowest p-8 lg:p-10 rounded-3xl shadow-sm flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between mb-space-md">
+                  <h3 class="font-headline-lg text-headline-lg text-on-surface font-bold">Daily Instructor Batches</h3>
+                  <span class="font-label-sm text-label-sm text-primary font-bold uppercase tracking-wider">5 Daily Sessions</span>
+                </div>
+                <p class="font-body-md text-body-md text-secondary mb-space-lg">
+                  Specialized instructor-guided group classes held at scheduled high-energy intervals.
+                </p>
+                <div class="flex flex-col gap-3">
+                  <button class="w-full text-left p-4 rounded-2xl bg-surface-container hover:bg-tertiary-fixed/40 transition-colors flex items-center justify-between cursor-pointer" onclick="selectBatch('Morning (9:00 AM – 10:00 AM)')" type="button">
+                    <div class="flex items-center gap-4">
+                      <div class="w-10 h-10 rounded-xl bg-surface-container-lowest text-primary flex items-center justify-center font-bold text-label-md">B1</div>
+                      <div>
+                        <div class="flex items-center gap-2">
+                          <span class="material-symbols-outlined text-[18px] text-secondary">schedule</span>
+                          <span class="font-headline-sm text-headline-sm text-on-surface font-bold">9:00 AM – 10:00 AM</span>
+                        </div>
+                        <p class="font-body-sm text-body-sm text-secondary">Morning Energy & Aerobics</p>
+                      </div>
+                    </div>
+                    <span class="px-3 py-1 rounded-full bg-surface-container-lowest text-primary font-label-sm text-label-sm font-bold shadow-sm">Book Slot</span>
+                  </button>
+
+                  <button class="w-full text-left p-4 rounded-2xl bg-surface-container hover:bg-tertiary-fixed/40 transition-colors flex items-center justify-between cursor-pointer" onclick="selectBatch('Mid-Day (12:00 PM – 1:00 PM)')" type="button">
+                    <div class="flex items-center gap-4">
+                      <div class="w-10 h-10 rounded-xl bg-surface-container-lowest text-primary flex items-center justify-center font-bold text-label-md">B2</div>
+                      <div>
+                        <div class="flex items-center gap-2">
+                          <span class="material-symbols-outlined text-[18px] text-secondary">schedule</span>
+                          <span class="font-headline-sm text-headline-sm text-on-surface font-bold">12:00 PM – 1:00 PM</span>
+                        </div>
+                        <p class="font-body-sm text-body-sm text-secondary">Mid-Day Cardio & Toning</p>
+                      </div>
+                    </div>
+                    <span class="px-3 py-1 rounded-full bg-surface-container-lowest text-primary font-label-sm text-label-sm font-bold shadow-sm">Book Slot</span>
+                  </button>
+
+                  <button class="w-full text-left p-4 rounded-2xl bg-surface-container hover:bg-tertiary-fixed/40 transition-colors flex items-center justify-between cursor-pointer" onclick="selectBatch('Afternoon (4:00 PM – 5:00 PM)')" type="button">
+                    <div class="flex items-center gap-4">
+                      <div class="w-10 h-10 rounded-xl bg-surface-container-lowest text-primary flex items-center justify-center font-bold text-label-md">B3</div>
+                      <div>
+                        <div class="flex items-center gap-2">
+                          <span class="material-symbols-outlined text-[18px] text-secondary">schedule</span>
+                          <span class="font-headline-sm text-headline-sm text-on-surface font-bold">4:00 PM – 5:00 PM</span>
+                        </div>
+                        <p class="font-body-sm text-body-sm text-secondary">Afternoon Free-Hand & Stepper</p>
+                      </div>
+                    </div>
+                    <span class="px-3 py-1 rounded-full bg-surface-container-lowest text-primary font-label-sm text-label-sm font-bold shadow-sm">Book Slot</span>
+                  </button>
+
+                  <button class="w-full text-left p-4 rounded-2xl bg-surface-container hover:bg-tertiary-fixed/40 transition-colors flex items-center justify-between cursor-pointer" onclick="selectBatch('Evening (6:00 PM – 7:00 PM)')" type="button">
+                    <div class="flex items-center gap-4">
+                      <div class="w-10 h-10 rounded-xl bg-surface-container-lowest text-primary flex items-center justify-center font-bold text-label-md">B4</div>
+                      <div>
+                        <div class="flex items-center gap-2">
+                          <span class="material-symbols-outlined text-[18px] text-secondary">schedule</span>
+                          <span class="font-headline-sm text-headline-sm text-on-surface font-bold">6:00 PM – 7:00 PM</span>
+                        </div>
+                        <p class="font-body-sm text-body-sm text-secondary">Evening Zumba & Fat Loss</p>
+                      </div>
+                    </div>
+                    <span class="px-3 py-1 rounded-full bg-surface-container-lowest text-primary font-label-sm text-label-sm font-bold shadow-sm">Book Slot</span>
+                  </button>
+
+                  <button class="w-full text-left p-4 rounded-2xl bg-surface-container hover:bg-tertiary-fixed/40 transition-colors flex items-center justify-between cursor-pointer" onclick="selectBatch('Night (8:00 PM – 9:00 PM)')" type="button">
+                    <div class="flex items-center gap-4">
+                      <div class="w-10 h-10 rounded-xl bg-surface-container-lowest text-primary flex items-center justify-center font-bold text-label-md">B5</div>
+                      <div>
+                        <div class="flex items-center gap-2">
+                          <span class="material-symbols-outlined text-[18px] text-secondary">schedule</span>
+                          <span class="font-headline-sm text-headline-sm text-on-surface font-bold">8:00 PM – 9:00 PM</span>
+                        </div>
+                        <p class="font-body-sm text-body-sm text-secondary">Night Post-Work Sculpt & Yoga</p>
+                      </div>
+                    </div>
+                    <span class="px-3 py-1 rounded-full bg-surface-container-lowest text-primary font-label-sm text-label-sm font-bold shadow-sm">Book Slot</span>
+                  </button>
+                </div>
+              </div>
+              <div class="mt-space-lg flex items-center justify-between pt-4 border-t border-surface-container">
+                <span class="font-body-sm text-body-sm text-secondary">Need a customized time slot?</span>
+                <a class="font-label-md text-label-md text-primary hover:text-primary-container font-semibold inline-flex items-center gap-1" href="#contact">
+                  <span>Talk to our trainer</span>
+                  <span class="material-symbols-outlined text-[18px]">chevron_right</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- MEMBERSHIP & PACKAGES SECTION -->
+      <section class="w-full bg-surface py-space-xl lg:py-24 scroll-mt-20" id="pricing">
+        <div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+          <div class="flex flex-col items-center text-center max-w-2xl mx-auto mb-space-xl">
+            <span class="px-3.5 py-1 rounded-full bg-primary-fixed/40 text-primary font-label-sm text-label-sm uppercase tracking-wider mb-space-xs">
+              Transparent Value
+            </span>
+            <h2 class="font-headline-xl text-headline-xl-mobile lg:text-headline-xl text-on-surface tracking-tight mb-space-xs">
+              Membership & Packages
+            </h2>
+            <p class="font-body-md text-body-md text-secondary">
+              Affordable, women-led fitness investment with zero hidden charges.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter items-stretch">
+            <!-- Card 1 -->
+            <div class="p-8 rounded-3xl bg-surface-container-lowest shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+              <div>
+                <span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Plan Option 01</span>
+                <h3 class="font-headline-md text-headline-md text-on-surface font-bold mt-1">Regular Monthly</h3>
+                <p class="font-body-sm text-body-sm text-secondary mt-1">Flexible month-to-month routine with complete equipment access.</p>
+                <div class="my-space-md">
+                  <div class="flex items-baseline">
+                    <span class="font-headline-2xl text-headline-2xl text-on-surface font-extrabold">৳1,500</span>
+                    <span class="font-body-md text-body-md text-secondary ml-1">/ month</span>
+                  </div>
+                  <div class="inline-block mt-2 px-3 py-1 rounded-full bg-surface-container text-secondary font-label-sm text-label-sm">
+                    ৳3,000 one-time Admission Fee
+                  </div>
+                </div>
+                <div class="flex flex-col gap-3 py-4 border-t border-surface-container font-body-sm text-body-sm text-on-surface">
+                  <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span><span>Full gym floor access (7:30 AM – 10:00 PM)</span></div>
+                  <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span><span>Cardio and strength machinery use</span></div>
+                  <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span><span>General female trainer guidance</span></div>
+                  <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span><span>Clean private locker facilities</span></div>
+                  <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span><span>Routine orientation on first visit</span></div>
+                </div>
+              </div>
+              <button class="mt-space-md w-full py-3.5 rounded-full bg-surface-container text-on-surface text-center font-label-md text-label-md hover:bg-primary-container hover:text-on-primary-container transition-colors cursor-pointer" onclick="selectPackage('Regular Monthly (৳1,500)')" type="button">
+                Join Now
+              </button>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="p-8 rounded-3xl bg-surface-container-lowest shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+              <div>
+                <span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider">Plan Option 02</span>
+                <h3 class="font-headline-md text-headline-md text-on-surface font-bold mt-1">1-Month Package</h3>
+                <p class="font-body-sm text-body-sm text-secondary mt-1">All-inclusive 1-month package for quick starters.</p>
+                <div class="my-space-md">
+                  <div class="flex items-baseline">
+                    <span class="font-headline-2xl text-headline-2xl text-on-surface font-extrabold">৳2,000</span>
+                    <span class="font-body-md text-body-md text-secondary ml-1">/ month</span>
+                  </div>
+                  <div class="inline-block mt-2 px-3 py-1 rounded-full bg-tertiary-fixed text-primary font-label-sm text-label-sm font-semibold">
+                    Zero Admission Fee Commitment
+                  </div>
+                </div>
+                <div class="flex flex-col gap-3 py-4 border-t border-surface-container font-body-sm text-body-sm text-on-surface">
+                  <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span><span>Zero admission fee commitment</span></div>
+                  <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span><span>Full gym & machinery access</span></div>
+                  <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span><span>Group aerobic & stepper classes included</span></div>
+                  <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span><span>Initial fitness & BMI assessment</span></div>
+                  <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary text-[20px]">check_circle</span><span>Locker room access</span></div>
+                </div>
+              </div>
+              <button class="mt-space-md w-full py-3.5 rounded-full bg-surface-container text-on-surface text-center font-label-md text-label-md hover:bg-primary-container hover:text-on-primary-container transition-colors cursor-pointer" onclick="selectPackage('1-Month Package (৳2,000)')" type="button">
+                Join Now
+              </button>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="p-8 rounded-3xl bg-inverse-surface text-inverse-on-surface shadow-xl flex flex-col justify-between relative transform lg:-translate-y-2">
+              <div class="absolute -top-3.5 right-8 px-4 py-1 rounded-full bg-primary-container text-on-primary-container font-label-sm text-label-sm uppercase tracking-wider font-bold shadow-md">
+                Best Value
+              </div>
+              <div>
+                <span class="font-label-sm text-label-sm text-primary-fixed uppercase tracking-wider">Plan Option 03</span>
+                <h3 class="font-headline-md text-headline-md font-bold mt-1">2-Month Package</h3>
+                <p class="font-body-sm text-body-sm text-surface-container-highest mt-1">Save more with 2 full months of complete access and classes.</p>
+                <div class="my-space-md">
+                  <div class="flex items-baseline">
+                    <span class="font-headline-2xl text-headline-2xl text-inverse-on-surface font-extrabold">৳3,000</span>
+                    <span class="font-body-md text-body-md text-surface-container-highest ml-1">/ 2 months</span>
+                  </div>
+                  <div class="inline-block mt-2 px-3 py-1 rounded-full bg-primary-container/30 text-tertiary-fixed font-label-sm text-label-sm font-semibold">
+                    Only ৳1,500/month Effective Rate
+                  </div>
+                </div>
+                <div class="flex flex-col gap-3 py-4 border-t border-surface-container-high/20 font-body-sm text-body-sm text-inverse-on-surface">
+                  <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-fixed text-[20px]">check_circle</span><span>Highest savings & no admission charge</span></div>
+                  <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-fixed text-[20px]">check_circle</span><span>Unlimited gym & all group classes (Zumba, Yoga, Aerobics)</span></div>
+                  <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-fixed text-[20px]">check_circle</span><span>1 complimentary customized diet plan</span></div>
+                  <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-fixed text-[20px]">check_circle</span><span>Priority female trainer supervision</span></div>
+                  <div class="flex items-center gap-2"><span class="material-symbols-outlined text-primary-fixed text-[20px]">check_circle</span><span>Full locker, dressing, & shower amenities</span></div>
+                </div>
+              </div>
+              <button class="mt-space-md w-full py-3.5 rounded-full bg-primary-container text-on-primary-container text-center font-label-md text-label-md font-bold hover:bg-primary shadow-lg transition-all duration-200 cursor-pointer" onclick="selectPackage('2-Month Package (৳3,000 — Best Value)')" type="button">
+                Join Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- PHOTO GALLERY SECTION -->
+      <section class="w-full bg-surface-container-low py-space-xl lg:py-24 scroll-mt-20" id="gallery">
+        <div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+          <div class="flex flex-col items-center text-center max-w-2xl mx-auto mb-space-xl">
+            <span class="px-3.5 py-1 rounded-full bg-primary-fixed/40 text-primary font-label-sm text-label-sm uppercase tracking-wider mb-space-xs">
+              Exclusive Sanctuary Tour
+            </span>
+            <h2 class="font-headline-xl text-headline-xl-mobile lg:text-headline-xl text-on-surface tracking-tight mb-space-xs">
+              Studio Photo Gallery
+            </h2>
+            <p class="font-body-md text-body-md text-secondary">
+              Click any photo to view it fullscreen.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="gallery-item cursor-pointer group relative rounded-2xl overflow-hidden aspect-[4/3] bg-surface-container shadow-sm hover:shadow-md transition-shadow" onclick="openLightbox(this)">
+              <img alt="Main Workout Floor" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAxBH9K_qkRyNGsmL18wBB5zw1i6zyV0nStin-K8A01fPZKvhCBTyuDSUXvokRzX9KY4EKLM8z52t09OZZDNiFQOqE3Ya8jkazMVM0Fiwbz1TSIRGBXCDdoCiLzXnfRR3GO1I55qs5WThJqfOBzrlE3ZMQ_zfERxW4WolC9Ni9i7fvyHTX8VIz5tYkCJ5VgocN2MZFqe9ccqh6K3-fRIwX6mBv31qdgMHG8WbYp7zU" />
+              <div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent flex items-end p-5">
+                <div>
+                  <span class="px-2.5 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm uppercase font-semibold">Cardio & Machinery</span>
+                  <h3 class="font-headline-sm text-headline-sm text-inverse-on-surface font-bold mt-1">Main Workout Floor</h3>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item cursor-pointer group relative rounded-2xl overflow-hidden aspect-[4/3] bg-surface-container shadow-sm hover:shadow-md transition-shadow" onclick="openLightbox(this)">
+              <img alt="Free Weights Zone" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOSlb6A1tzBPZShxGpc7A3xRHJGqHMwMsz99CzyFuOG5c9faIhMTXZi-DMAUPU7Y8gYgn7npkewspI7UzQwpSUynIXLa3TuvybeAh0OIAaL0-ZK_zzSPUd9_v2k68Olp-cgz8X2XWErABUW4Uvn-NQiyGHaTqBI5ZmAjnP_oMG4DuP0O1U8CxESm0l7FZoy1LfOxrAp7pChcGwGdQLIIQBuvMnN2EujO_TVUFmQ0k" />
+              <div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent flex items-end p-5">
+                <div>
+                  <span class="px-2.5 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm uppercase font-semibold">Strength</span>
+                  <h3 class="font-headline-sm text-headline-sm text-inverse-on-surface font-bold mt-1">Free Weights Zone</h3>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item cursor-pointer group relative rounded-2xl overflow-hidden aspect-[4/3] bg-surface-container shadow-sm hover:shadow-md transition-shadow" onclick="openLightbox(this)">
+              <img alt="Aerobic & Stepper Studio" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD3e76tvUiG_r3MHVWKTCacVX-fCMFp0oQNtuCRxe_-TGN4MXEtaEKYeizvsrd9e2UGCqVm2qrd77448TZzBsFmE-UWsLjI-wcibnlZltxuqx-NtNFRly3EEiJ1xtRm27Qtm-EHUKm84Yj37D0G4skc5HXWDm6jSQyCiZorIan3-Qwlv1IUYtRK4jZgDJ2Vv4cj1VWEqBsCaXyBxKuHKeG5Vgm7LyIWGa0dV0TGzA4" />
+              <div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent flex items-end p-5">
+                <div>
+                  <span class="px-2.5 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm uppercase font-semibold">Group Fitness</span>
+                  <h3 class="font-headline-sm text-headline-sm text-inverse-on-surface font-bold mt-1">Aerobic & Stepper Studio</h3>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item cursor-pointer group relative rounded-2xl overflow-hidden aspect-[4/3] bg-surface-container shadow-sm hover:shadow-md transition-shadow" onclick="openLightbox(this)">
+              <img alt="Zumba & Dance Space" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-X8Ik1KA5i5biSW62F-Wsm088k9xo7WTjd5_kDJRvxb_r0-_uoRUscqM1nWNh79TjJ_UCXtjkUChyr1YsooNYadVHy9nk5R5gjx4r2JV9xhVi9FAjJ-cosnlM8wVjWZqeAMMkZeNmD-03qPz9Ibq6ZopCiu_VlCjx2Z5zg6fE5dX45b5J2LRI2skruO_qG8pu229-Y_RfHLrZ8yuBaU6jYpc6BdAM4Kr_DKaauUw" />
+              <div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent flex items-end p-5">
+                <div>
+                  <span class="px-2.5 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm uppercase font-semibold">Rhythm & Fun</span>
+                  <h3 class="font-headline-sm text-headline-sm text-inverse-on-surface font-bold mt-1">Zumba & Dance Space</h3>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item cursor-pointer group relative rounded-2xl overflow-hidden aspect-[4/3] bg-surface-container shadow-sm hover:shadow-md transition-shadow" onclick="openLightbox(this)">
+              <img alt="Yoga & Mobility Studio" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC234EQPSohIqjyR94yXgGfxXftza8oGDYD-hBTwMRfRCtRcpGf-ZIcRDQhUSmboZswTcbYPMSjwoBxIHf67te01Lx9wDbavy2B4B3i-m8Tu6qT6RQNtILGQ5Op0xhyMXJnxMHyOz2p8zejDi9XZCsiNSB301KIdR9wKiHE_VutBUVyHc8NHQU8lFdtx7ZehIU0k46uYDmdfcmA9WopMwPJNoDELwmkP7t_bk_CazA" />
+              <div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent flex items-end p-5">
+                <div>
+                  <span class="px-2.5 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm uppercase font-semibold">Mindfulness</span>
+                  <h3 class="font-headline-sm text-headline-sm text-inverse-on-surface font-bold mt-1">Yoga & Mobility Studio</h3>
+                </div>
+              </div>
+            </div>
+            <div class="gallery-item cursor-pointer group relative rounded-2xl overflow-hidden aspect-[4/3] bg-surface-container shadow-sm hover:shadow-md transition-shadow" onclick="openLightbox(this)">
+              <img alt="Locker & Rest Lounge" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMajKskID9MKtCOL2Sdr0FW5koTvPK74Fu2qQOJHtdZj6nGWoXTOf3sfS8lsIzgJ-YR-CoN68-YRClYTwkLnbEh9GshjuzWZV-FbCjyT3rJEHryxbj6226rwKzxHjRGsdhM0H-kpAR0cDrJzj7VkRksSZb6IckJ-I8BO5R04kiS9URuZUthxZ3VI65ZQj5Aq5qHmjcwN6u3jmcc6Nhn6d2mik6IDlWJFtuX5HDRUk" />
+              <div class="absolute inset-0 bg-gradient-to-t from-inverse-surface/80 via-transparent to-transparent flex items-end p-5">
+                <div>
+                  <span class="px-2.5 py-0.5 rounded-full bg-surface-container-lowest/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm uppercase font-semibold">Amenities</span>
+                  <h3 class="font-headline-sm text-headline-sm text-inverse-on-surface font-bold mt-1">Locker & Rest Lounge</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- REAL MEMBER REVIEWS SECTION -->
+      <section class="w-full bg-surface py-space-xl lg:py-24 scroll-mt-20" id="reviews">
+        <div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+          <div class="flex flex-col items-center text-center max-w-2xl mx-auto mb-space-xl">
+            <span class="px-3.5 py-1 rounded-full bg-primary-fixed/40 text-primary font-label-sm text-label-sm uppercase tracking-wider mb-space-xs">
+              Voices of Transformation
+            </span>
+            <h2 class="font-headline-xl text-headline-xl-mobile lg:text-headline-xl text-on-surface tracking-tight mb-space-xs">
+              Real Member Reviews
+            </h2>
+            <p class="font-body-md text-body-md text-secondary">
+              Hear straight from the wonderful women who train, grow, and flourish at SLIM FIT GYM.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-gutter">
+            <div class="p-8 lg:p-10 rounded-3xl bg-surface-container-lowest shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+              <div>
+                <div class="flex items-center gap-1 text-primary-container mb-4">
+                  <span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                </div>
+                <p class="text-body-lg text-on-surface leading-relaxed mb-6" style="font-family: 'Hind Siliguri', sans-serif;">
+                  “শরীর মনকে সুস্থ রাখার জন্য আমাদের প্রত্যেকের উচিৎ শরীর টাকে ফিট রাখা এবং জিম করা। শুধু স্লিম হওয়ার জন্য জিম নয়। সুস্থ থাকার জন্য আসলে জিম প্রয়োজন। ভালো একটা পরিবেশে জিম করতে হলে চলে আসুন Slim Fit Gym এ। এখানে উন্নত মানের মেশিনারি রয়েছে। চমৎকার পরিবেশ। এখানে প্রশিক্ষণ দেয়া হয়। প্রশিক্ষক আছেন কয়েকজন। যারা আমাদের সকল সমস্যার পাশে আছেন।”
+                </p>
+              </div>
+              <div class="flex items-center gap-3 pt-6 border-t border-surface-container">
+                <div class="w-12 h-12 rounded-full bg-primary-fixed text-primary font-bold flex items-center justify-center font-headline-sm">SR</div>
+                <div>
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Sabila Rawshan</h3>
+                  <p class="font-body-sm text-body-sm text-secondary">Verified Member • Mirpur-2</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="p-8 lg:p-10 rounded-3xl bg-surface-container-lowest shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+              <div>
+                <div class="flex items-center gap-1 text-primary-container mb-4">
+                  <span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                  <span class="material-symbols-outlined text-[22px]" style="font-variation-settings: 'FILL' 1;">star</span>
+                </div>
+                <p class="font-body-lg text-body-lg text-on-surface leading-relaxed mb-6">
+                  “Whoever wants to get fit & healthy under a proper supervision through individual exercise & diet plan then in my experience & opinion, this is the most suitable place in Mirpur which is dedicated only for the girls/ladies.”
+                </p>
+              </div>
+              <div class="flex items-center gap-3 pt-6 border-t border-surface-container">
+                <div class="w-12 h-12 rounded-full bg-primary-container text-on-primary-container font-bold flex items-center justify-center font-headline-sm">SH</div>
+                <div>
+                  <h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Shamima Haque</h3>
+                  <p class="font-body-sm text-body-sm text-secondary">Verified Member • Mirpur</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT & LOCATION SECTION -->
+      <section class="w-full bg-surface-container-low py-space-xl lg:py-24 scroll-mt-20" id="contact">
+        <div class="max-w-[1280px] mx-auto px-margin-mobile lg:px-margin">
+          <div class="flex flex-col items-center text-center max-w-2xl mx-auto mb-space-xl">
+            <span class="px-3.5 py-1 rounded-full bg-primary-fixed/40 text-primary font-label-sm text-label-sm uppercase tracking-wider mb-space-xs">
+              Start Your Journey
+            </span>
+            <h2 class="font-headline-xl text-headline-xl-mobile lg:text-headline-xl text-on-surface tracking-tight mb-space-xs">
+              Contact & Book Trial Session
+            </h2>
+            <p class="font-body-md text-body-md text-secondary">
+              Reach out directly via WhatsApp or fill out the booking form below to secure your spot.
+            </p>
+          </div>
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+            <!-- Left: Form -->
+            <div class="lg:col-span-6 bg-surface-container-lowest p-8 lg:p-10 rounded-3xl shadow-sm">
+              <h3 class="font-headline-md text-headline-md text-on-surface font-bold mb-2">Book a Trial / Send Inquiry</h3>
+              <p class="font-body-sm text-body-sm text-secondary mb-space-lg">Submit your details and our team will connect with you immediately on WhatsApp.</p>
+              <form class="flex flex-col gap-4" id="gymInquiryForm">
+                <div>
+                  <label class="block font-label-sm text-label-sm text-on-surface font-semibold mb-1" for="name">Full Name</label>
+                  <input class="w-full px-4 py-3 rounded-xl bg-surface-container-lowest border border-outline-variant/60 text-on-surface text-body-md outline-none focus:ring-2 focus:ring-primary-container focus:border-transparent" id="name" placeholder="e.g. Fatima Rahman" required type="text" />
+                </div>
+                <div>
+                  <label class="block font-label-sm text-label-sm text-on-surface font-semibold mb-1" for="phone">Phone Number (WhatsApp preferred)</label>
+                  <input class="w-full px-4 py-3 rounded-xl bg-surface-container-lowest border border-outline-variant/60 text-on-surface text-body-md outline-none focus:ring-2 focus:ring-primary-container focus:border-transparent" id="phone" placeholder="017XX-XXXXXX" required type="tel" />
+                </div>
+                <div>
+                  <label class="block font-label-sm text-label-sm text-on-surface font-semibold mb-1" for="package">Select Package</label>
+                  <select class="w-full px-4 py-3 rounded-xl bg-surface-container-lowest border border-outline-variant/60 text-on-surface text-body-md outline-none focus:ring-2 focus:ring-primary-container focus:border-transparent" id="package">
+                    <option value="2-Month Package (৳3,000 — Best Value)">2-Month Package (৳3,000 — Best Value)</option>
+                    <option value="1-Month Package (৳2,000)">1-Month Package (৳2,000)</option>
+                    <option value="Regular Monthly (৳1,500)">Regular Monthly (৳1,500)</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="block font-label-sm text-label-sm text-on-surface font-semibold mb-1" for="batch">Preferred Time Slot</label>
+                  <select class="w-full px-4 py-3 rounded-xl bg-surface-container-lowest border border-outline-variant/60 text-on-surface text-body-md outline-none focus:ring-2 focus:ring-primary-container focus:border-transparent" id="batch">
+                    <option value="Morning (9:00 AM – 10:00 AM)">Morning (9:00 AM – 10:00 AM)</option>
+                    <option value="Mid-Day (12:00 PM – 1:00 PM)">Mid-Day (12:00 PM – 1:00 PM)</option>
+                    <option value="Afternoon (4:00 PM – 5:00 PM)">Afternoon (4:00 PM – 5:00 PM)</option>
+                    <option value="Evening (6:00 PM – 7:00 PM)">Evening (6:00 PM – 7:00 PM)</option>
+                    <option value="Night (8:00 PM – 9:00 PM)">Night (8:00 PM – 9:00 PM)</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="block font-label-sm text-label-sm text-on-surface font-semibold mb-1" for="message">Message / Fitness Goals (Optional)</label>
+                  <textarea class="w-full px-4 py-3 rounded-xl bg-surface-container-lowest border border-outline-variant/60 text-on-surface text-body-md outline-none focus:ring-2 focus:ring-primary-container focus:border-transparent" id="message" placeholder="Tell us what you would like to achieve (e.g., Weight loss, toning, stamina)" rows="3"></textarea>
+                </div>
+                <button class="w-full mt-2 py-4 rounded-full bg-primary-container text-on-primary-container font-label-md text-label-md font-bold flex items-center justify-center gap-2 hover:bg-primary transition-all duration-200 shadow-md cursor-pointer" type="submit">
+                  <span class="material-symbols-outlined text-[20px]">chat</span>
+                  <span>Send via WhatsApp</span>
+                </button>
+              </form>
+            </div>
+
+            <!-- Right: Contact Details Card & Live Map -->
+            <div class="lg:col-span-6 flex flex-col gap-6">
+              <div class="bg-surface-container-lowest p-8 lg:p-10 rounded-3xl shadow-sm flex flex-col gap-6">
+                <h3 class="font-headline-md text-headline-md text-on-surface font-bold">Studio Contact Details</h3>
+                <div class="flex flex-col gap-4 font-body-md text-body-md">
+                  <div class="flex items-start gap-4">
+                    <div class="w-10 h-10 rounded-xl bg-tertiary-fixed text-primary flex items-center justify-center shrink-0">
+                      <span class="material-symbols-outlined text-[22px]">location_on</span>
+                    </div>
+                    <div>
+                      <h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">Address</h4>
+                      <p class="text-secondary mt-0.5">House No. 4, Road No. 12, Block G1, Mirpur-2, Dhaka, Bangladesh, 1216</p>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-4">
+                    <div class="w-10 h-10 rounded-xl bg-tertiary-fixed text-primary flex items-center justify-center shrink-0">
+                      <span class="material-symbols-outlined text-[22px]">call</span>
+                    </div>
+                    <div>
+                      <h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">Phone Number</h4>
+                      <a class="text-primary font-bold hover:underline mt-0.5 block" href="tel:+8801775070398">+880 1775-070398</a>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-4">
+                    <div class="w-10 h-10 rounded-xl bg-tertiary-fixed text-primary flex items-center justify-center shrink-0">
+                      <span class="material-symbols-outlined text-[22px]">mail</span>
+                    </div>
+                    <div>
+                      <h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">Email</h4>
+                      <a class="text-secondary hover:text-primary mt-0.5 block" href="mailto:slimfitgym.bd@gmail.com">slimfitgym.bd@gmail.com</a>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-4">
+                    <div class="w-10 h-10 rounded-xl bg-tertiary-fixed text-primary flex items-center justify-center shrink-0">
+                      <span class="material-symbols-outlined text-[22px]">schedule</span>
+                    </div>
+                    <div>
+                      <h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">Studio Hours</h4>
+                      <p class="text-secondary mt-0.5">Saturday – Thursday: 7:30 AM – 10:00 PM</p>
+                      <p class="text-primary font-semibold font-body-sm text-body-sm">Friday: Weekly Off</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Live Embedded Google Map -->
+              <div class="bg-surface-container-lowest p-4 rounded-3xl shadow-sm overflow-hidden flex flex-col gap-3">
+                <div class="w-full h-60 rounded-2xl overflow-hidden shadow-inner bg-surface-container">
+                  <iframe
+                    allowfullscreen=""
+                    class="w-full h-full border-0"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    src="https://maps.google.com/maps?q=Road%2012%2C%20Block%20G%2C%20Mirpur%202%2C%20Dhaka%201216&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                    title="Slim Fit Gym Mirpur-2 Map">
+                  </iframe>
+                </div>
+                <div class="flex items-center justify-between px-2">
+                  <span class="font-body-sm text-body-sm text-secondary">Block G1, Road 12, Mirpur-2, Dhaka</span>
+                  <a class="font-label-sm text-label-sm text-primary font-bold hover:underline inline-flex items-center gap-1" href="https://maps.google.com/?q=Road+12,+Block+G1,+Mirpur-2,+Dhaka+1216" rel="noopener noreferrer" target="_blank">
+                    <span>Open in Google Maps</span>
+                    <span class="material-symbols-outlined text-[16px]">open_in_new</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FLOATING QUICK WHATSAPP CTA -->
+      <a class="fixed bottom-6 right-6 z-40 flex items-center gap-2 px-5 py-3 rounded-full bg-primary-container text-on-primary-container shadow-xl hover:bg-primary transition-all duration-300 transform hover:scale-105" href="https://wa.me/8801775070398?text=Hello%20Slim%20Fit%20Gym%2C%20I%20want%20to%20know%20about%20membership" rel="noopener noreferrer" target="_blank">
+        <span class="material-symbols-outlined text-[24px]">chat</span>
+        <span class="font-label-md text-label-md font-bold tracking-wide">Quick Chat</span>
+      </a>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="w-full bg-inverse-surface text-inverse-on-surface pt-space-xl pb-space-lg">
+    <div class="max-w-[1280px] mx-auto w-full px-margin-mobile lg:px-margin">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-space-xl">
+        <div class="flex flex-col gap-space-md">
+          <a class="flex items-center gap-space-sm" href="#hero">
+            <img alt="SLIM FIT GYM Logo" class="h-10 w-10 object-contain rounded-full shadow-sm bg-surface-container-lowest p-0.5" src="https://lh3.googleusercontent.com/aida/ALJJyrDT2ocBeCjYU9Scti4fzm3hSQZgq-Ih87hjKhRLpk8PF7hA1TMI4PwL4ro2xHbffh2T03QLYsnDoMchPmu4IH6UkMzY0Wh1Jy6q5Z5iYy-outyS3nt9EZ8bhhnA9zGUJQa4ETzaldrk0veWhjOdi3Afp_0Q9RSNyW4FrwHmU1czrx_jkjo0JXBIR7uDVxlFZjg7Usop5k9ewrh9MwgevEHbZvZKxhAQ-8HHfEydTfIgG3x8TvbucVV-rA" />
+            <div class="flex flex-col leading-none">
+              <span class="font-headline-sm text-headline-sm text-inverse-on-surface font-bold">SLIM FIT GYM</span>
+              <span class="font-label-sm text-label-sm text-primary-fixed tracking-wider uppercase">ONLY FOR LADIES</span>
+            </div>
+          </a>
+          <p class="font-body-sm text-body-sm text-surface-container-highest max-w-xs">
+            Stronger, Healthier, Happier You. A private, elite female-only wellness and strength sanctuary crafted for empowered living.
+          </p>
+          <div class="flex items-center gap-space-sm">
+            <a aria-label="WhatsApp" class="w-9 h-9 rounded-full bg-surface-container-high/10 hover:bg-primary-container hover:text-on-primary-container text-inverse-on-surface flex items-center justify-center transition-colors" href="https://wa.me/8801775070398" rel="noopener noreferrer" target="_blank">
+              <span class="material-symbols-outlined text-[18px]">chat</span>
+            </a>
+            <a aria-label="Call Us" class="w-9 h-9 rounded-full bg-surface-container-high/10 hover:bg-primary-container hover:text-on-primary-container text-inverse-on-surface flex items-center justify-center transition-colors" href="tel:+8801775070398">
+              <span class="material-symbols-outlined text-[18px]">call</span>
+            </a>
+            <a aria-label="Email Us" class="w-9 h-9 rounded-full bg-surface-container-high/10 hover:bg-primary-container hover:text-on-primary-container text-inverse-on-surface flex items-center justify-center transition-colors" href="mailto:slimfitgym.bd@gmail.com">
+              <span class="material-symbols-outlined text-[18px]">mail</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-space-sm">
+          <h4 class="font-headline-sm text-headline-sm text-inverse-on-surface">Quick Links</h4>
+          <ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-surface-container-highest">
+            <li class="py-0.5"><a class="hover:text-primary-fixed transition-colors" href="#about">About the Sanctuary</a></li>
+            <li class="py-0.5"><a class="hover:text-primary-fixed transition-colors" href="#programmes">Fitness Programmes</a></li>
+            <li class="py-0.5"><a class="hover:text-primary-fixed transition-colors" href="#schedule">Class Timetable</a></li>
+            <li class="py-0.5"><a class="hover:text-primary-fixed transition-colors" href="#pricing">Membership Plans</a></li>
+            <li class="py-0.5"><a class="hover:text-primary-fixed transition-colors" href="#reviews">Member Stories</a></li>
+            <li class="py-0.5"><a class="hover:text-primary-fixed transition-colors" href="#contact">Book Trial Session</a></li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col gap-space-sm">
+          <h4 class="font-headline-sm text-headline-sm text-inverse-on-surface">Contact Details</h4>
+          <div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-surface-container-highest">
+            <div class="flex items-start gap-space-xs">
+              <span class="material-symbols-outlined text-primary-fixed text-[20px] shrink-0 mt-0.5">location_on</span>
+              <span>House No. 4, Road No. 12, Block G1, Mirpur-2, Dhaka, 1216</span>
+            </div>
+            <div class="flex items-center gap-space-xs">
+              <span class="material-symbols-outlined text-primary-fixed text-[20px] shrink-0">call</span>
+              <a class="hover:text-primary-fixed transition-colors" href="tel:+8801775070398">+880 1775-070398</a>
+            </div>
+            <div class="flex items-center gap-space-xs">
+              <span class="material-symbols-outlined text-primary-fixed text-[20px] shrink-0">mail</span>
+              <a class="hover:text-primary-fixed transition-colors" href="mailto:slimfitgym.bd@gmail.com">slimfitgym.bd@gmail.com</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-space-sm">
+          <h4 class="font-headline-sm text-headline-sm text-inverse-on-surface">Training Hours</h4>
+          <div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-surface-container-highest">
+            <div class="flex items-start gap-space-xs">
+              <span class="material-symbols-outlined text-primary-fixed text-[20px] shrink-0 mt-0.5">schedule</span>
+              <div>
+                <p class="font-medium text-inverse-on-surface">Saturday – Thursday</p>
+                <p>7:30 AM – 10:00 PM</p>
+              </div>
+            </div>
+            <div class="flex items-start gap-space-xs mt-1">
+              <span class="material-symbols-outlined text-outline text-[20px] shrink-0 mt-0.5">event_busy</span>
+              <div>
+                <p class="font-medium text-inverse-on-surface">Friday</p>
+                <p class="text-outline-variant">Weekly Off</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-space-md border-t border-surface-container-high/10 flex flex-col sm:flex-row items-center justify-between gap-space-sm font-label-sm text-label-sm text-surface-container-highest">
+        <p>© 2026 SLIM FIT GYM (Only For Ladies). All rights reserved.</p>
+        <p class="text-outline-variant">Mirpur-2, Dhaka • 100% Female Protected Space</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- FULLSCREEN GALLERY LIGHTBOX MODAL -->
+  <div class="hidden fixed inset-0 z-50 bg-black/90 backdrop-blur-sm flex items-center justify-center p-4" id="lightbox" onclick="closeLightbox(event)">
+    <button aria-label="Close Image" class="absolute top-6 right-6 w-12 h-12 rounded-full bg-white/10 hover:bg-white/20 text-white flex items-center justify-center transition-colors cursor-pointer" onclick="closeLightbox()" type="button">
+      <span class="material-symbols-outlined text-[28px]">close</span>
+    </button>
+    <div class="max-w-4xl w-full flex flex-col items-center gap-3">
+      <img alt="" class="max-h-[80vh] w-auto rounded-2xl shadow-2xl object-contain" id="lightboxImg" src="" />
+      <p class="text-white font-headline-sm text-headline-sm" id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <script>
+    // 1. Mobile Menu Toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const menuIcon = document.getElementById('menuIcon');
+
+    mobileMenuBtn.addEventListener('click', () => {
+      const isHidden = mobileMenu.classList.toggle('hidden');
+      menuIcon.textContent = isHidden ? 'menu' : 'close';
+    });
+
+    document.querySelectorAll('.mobile-nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+        menuIcon.textContent = 'menu';
+      });
+    });
+
+    // 2. Pre-select Package or Time Slot & Scroll to Contact Form
+    function selectPackage(pkgValue) {
+      const pkgSelect = document.getElementById('package');
+      pkgSelect.value = pkgValue;
+      document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+      setTimeout(() => document.getElementById('name').focus(), 600);
+    }
+
+    function selectBatch(batchValue) {
+      const batchSelect = document.getElementById('batch');
+      batchSelect.value = batchValue;
+      document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+      setTimeout(() => document.getElementById('name').focus(), 600);
+    }
+
+    // 3. WhatsApp Inquiry Form Handler
+    document.getElementById('gymInquiryForm').addEventListener('submit', function (e) {
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const phone = document.getElementById('phone').value.trim();
+      const pkg = document.getElementById('package').value;
+      const batch = document.getElementById('batch').value;
+      const msg = document.getElementById('message').value.trim();
+
+      let text = `Hello Slim Fit Gym, I would like to inquire about joining!\n\n` +
+                 `Name: ${name}\n` +
+                 `Phone: ${phone}\n` +
+                 `Package: ${pkg}\n` +
+                 `Preferred Slot: ${batch}`;
+      if (msg) text += `\nMessage: ${msg}`;
+
+      window.open(`https://wa.me/8801775070398?text=${encodeURIComponent(text)}`, '_blank');
+    });
+
+    // 4. Photo Gallery Lightbox
+    const lightbox = document.getElementById('lightbox');
+    const lightboxImg = document.getElementById('lightboxImg');
+    const lightboxCaption = document.getElementById('lightboxCaption');
+
+    function openLightbox(card) {
+      const img = card.querySelector('img');
+      lightboxImg.src = img.src;
+      lightboxImg.alt = img.alt;
+      lightboxCaption.textContent = img.alt;
+      lightbox.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeLightbox(e) {
+      if (e && e.target !== lightbox) return;
+      lightbox.classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !lightbox.classList.contains('hidden')) {
+        lightbox.classList.add('hidden');
+        document.body.style.overflow = '';
+      }
+    });
+
+    // 5. Active Nav Link Highlight on Scroll
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('#desktopNav .nav-link');
+
+    window.addEventListener('scroll', () => {
+      let current = 'hero';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 120;
+        if (window.scrollY >= sectionTop) current = section.getAttribute('id');
+      });
+      navLinks.forEach(link => {
+        const isActive = link.getAttribute('href') === `#${current}`;
+        link.classList.toggle('text-primary', isActive);
+        link.classList.toggle('font-bold', isActive);
+        link.classList.toggle('text-on-surface-variant', !isActive);
+      });
+    }, { passive: true });
+  </script>
+</body>
+</html>
